@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+.box i {
+    font-size: 135px;
+    align-self: center;
+}
+
+h2 {
+    color: #02995b;
+    font-family: Miso;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 24px;
+    align-self: center;
+}
+
+h1 {
+    color: #333333;
+    font-family: Miso;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 24px;
+    align-self: center;
+}
+
+p {
+    color: #333333;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 26px;
+    align-self: center;
+}
+
+.container {
+    width: 1200px;
+    height: 600px;
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box {
+    width: 360px;
+    height: 441px;
+    background-color: white;
+}
+
+.box--height {
+    height: 500px;
+}
+
+.box__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.box__cofee--bronze {
+    color: darkorange;
+}
+
+.box__cofee--gold {
+    color: gold;
+}
+
+.box__cofee--silver {
+    color: silver;
+}
